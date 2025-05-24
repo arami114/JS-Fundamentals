@@ -1,9 +1,9 @@
 const argvcount =process.argv.length - 2;
 
 if (argvcount === 0){
-    console.log("no argument");
+    console.log("no Argument");
 } else if (argvcount === 1){
-    console.log("argument found");
+    console.log("Argument found");
 } else {
-    console.log("arguments found");
+    console.log("Arguments found");
 }
