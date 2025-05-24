@@ -10,5 +10,5 @@ const num = parseInt(process.argv[2]);
 if (isNaN(num)) {
     console.log(1);
 } else {
-    console.log(factoria(num));
+    console.log(factorial(num));
 }
